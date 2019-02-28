@@ -17,4 +17,17 @@ dependencies {
     implementation 'com.mgtv.setting.diff.fac:settingDiff:1.0.0-SNAPSHOT'
    
 }       
-        
+
+
+#初始上传
+git init
+git remote add origin git@github.com:mgtvott/SettingDiff.git
+git add .
+git commit -m "first commit"
+git push origin -u master
+
+如果上传时报错，则先git pull，如果这时git pull出现“fatal: refusing to merge unrelated histories“，则先执行
+
+git pull origin master --allow-unrelated-histories
+
+然后重新执行：git push origin mastermaven，如果没有报错则，文件已经会上传到github。 
