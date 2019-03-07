@@ -6,12 +6,4 @@
   <artifactId>settingDiff</artifactId>
   <version>1.0.0</version>
   <packaging>aar</packaging>
-  <dependencies>
-    <dependency>
-      <groupId>SettingWrapper</groupId>
-      <artifactId>nunai_setting_diff_api</artifactId>
-      <version>unspecified</version>
-      <scope>compile</scope>
-    </dependency>
-  </dependencies>
 </project>
